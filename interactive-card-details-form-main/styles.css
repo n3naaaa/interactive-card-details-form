@@ -1,3 +1,77 @@
 body {
   font-family: "Space Grotesk", sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0px;
+  padding: 0%;
+}
+main {
+  position: relative;
+  height: 100%;
+}
+.bg-image-desk {
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+}
+.bg-img-mobile {
+  display: none;
+}
+.card-front {
+  background-image: url(images/bg-card-front.png);
+  border-radius: 8px;
+  background-size: cover;
+  height: 200px;
+  width: 375px;
+  padding: 24px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-front {
+  margin: 0%;
+}
+.card-logo-front {
+  width: 70px;
+}
+.card-front-text {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-front-expiration {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-front-numbers {
+  font-size: 22px;
+  display: flex;
+  gap: 12px;
+}
+.card-back {
+  background-image: url(images/bg-card-back.png);
+  background-size: cover;
+  position: relative;
+  width: 375px;
+  height: 200px;
+  border-radius: 8px;
+}
+.card-back-text {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 39%;
+  right: 13%;
+}
+input,
+button {
+  font-family: inherit;
 }
