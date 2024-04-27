@@ -56,6 +56,7 @@ main {
   display: flex;
   gap: 12px;
   margin-bottom: 12px;
+}
 .card-back {
   background-image: url(images/bg-card-back.png);
   background-size: cover;
@@ -74,4 +75,59 @@ main {
 input,
 button {
   font-family: inherit;
+}
+.card-front-name {
+  text-transform: uppercase;
+}
+.form {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: hsl(278, 68%, 11%);
+}
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.input-el {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 18px;
+  width: 370px;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-color: ;
+}
+.container {
+  display: flex;
+  gap: 400px;
+}
+.input-el::placeholder {
+  color: hsl(279, 6%, 55%);
+}
+.label {
+  font-weight: bold;
+  font-size: 12px;
+}
+.exp-date {
+  display: flex;
+  gap: 10px;
+}
+.inputcvc {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.submit-btn {
+  cursor: pointer;
+  border: 0;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  width: 370px;
+  padding: 12px;
+  border-radius: 8px;
+}
+.submit-btn :hover .submit-btn:focus {
+  background-color: hsl(270, 3%, 87%);
 }
