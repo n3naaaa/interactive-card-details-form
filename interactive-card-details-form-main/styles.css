@@ -55,7 +55,7 @@ main {
   font-size: 22px;
   display: flex;
   gap: 12px;
-}
+  margin-bottom: 12px;
 .card-back {
   background-image: url(images/bg-card-back.png);
   background-size: cover;
